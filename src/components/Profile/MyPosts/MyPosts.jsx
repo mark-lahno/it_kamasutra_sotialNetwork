@@ -3,8 +3,16 @@ import classes from './MyPosts.module.css'
 import Post from './Post/Post';
 
 const MyPosts = () => {
-  return <div>
-    My posts
+  return <div className={classes.MyPosts}>
+    <h3>My posts</h3>
+    <div>
+      <div>
+        <textarea></textarea>
+      </div>
+      <div>
+        <button>Add new post</button>
+      </div>
+    </div>
     <div>
       New post
     </div>

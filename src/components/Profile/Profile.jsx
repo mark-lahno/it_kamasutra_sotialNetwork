@@ -1,16 +1,13 @@
 import React from 'react';
 import MyPost from './MyPosts/MyPosts';
 import classes from './Profile.module.css'
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 
 const Profile = () => {
   return <div>
-    <div>
-      <img src='https://c0.wallpaperflare.com/preview/282/489/126/beach-exotic-holiday-horizon.jpg' />
-    </div>
-    <div>
-      ava + description
-    </div>
+
+    <ProfileInfo />
     <MyPost />
   </div>
 }
